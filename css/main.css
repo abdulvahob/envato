@@ -10,6 +10,7 @@
 
 html {
    scroll-behavior: smooth;
+   overflow-x: hidden;
 }
 
 body {
@@ -273,4 +274,12 @@ form .form-control {
 
 .footer-bottom{
    background-color: #242933;
+}
+
+.nav-link.active{
+   color: #0d6efd !important;
+}
+
+.nav-link:hover{
+   color: #0d6efd !important;
 }
