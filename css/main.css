@@ -283,3 +283,9 @@ form .form-control {
 .nav-link:hover{
    color: #0d6efd !important;
 }
+
+@media (max-width:600px) {
+   .col-md-6.col-sm-12.text-sm-center p{
+      text-align: center;
+   }
+}
